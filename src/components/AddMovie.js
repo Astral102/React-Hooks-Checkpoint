@@ -23,7 +23,7 @@ const AddMovie = ({ onAdd }) => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '20vh', // Centers vertically
+        height: '20vh', 
       }}
     >
       <form
@@ -32,7 +32,7 @@ const AddMovie = ({ onAdd }) => {
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          width: '300px', // Fixed width for the form
+          width: '300px', 
         }}
       >
         <input

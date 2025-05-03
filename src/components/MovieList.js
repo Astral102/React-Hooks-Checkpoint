@@ -6,8 +6,8 @@ const MovieList = ({ movies }) => {
     <div
       style={{
         display: 'flex',
-        flexDirection: 'column', // stack vertically
-        alignItems: 'center',    // center each card horizontally
+        flexDirection: 'column', 
+        alignItems: 'center',   
       }}
     >
       {movies.map((movie, i) => (
